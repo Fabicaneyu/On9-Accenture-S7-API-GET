@@ -21,3 +21,6 @@ Bônus: Criar uma API GET mostrando apenas UM ID.
 
 Você pode se inspirar nesse vídeo aqui para criar sua API. Apresentação da aula aqui
 
+## Yarn
+
+npm install -g yarn
