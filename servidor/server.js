@@ -2,8 +2,8 @@ const express = require('express')
 const app = express();
 const porta = 3000;
 
-app.listen(porta, () => {
-    `Servidor rodando na porta ${porta}`
+app.listen(porta, function() {
+    console.log("Servidor rodando")
 })
 
 
