@@ -14,13 +14,11 @@ app.get('/biografias', (req, res) => {
 //@desc Retorna uma biografia
 //@access Public
 app.get('/biografias/:id', (req,res)=> {
-    const {id} = req.params;
+    const id = req.params.id;
     const biografia = biografias.find(bio => bio.id == id);
-
-    if(!biografia) return res.status(204).json();
-
     res.json(biografia);
 })
+
 
 
 
